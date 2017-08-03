@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>phoneNumber</string>
+			<key>placeholder</key>
+			<string>Phone Number (ex. 8005555555)</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>isNumeric</key>
+			<true/>
+			<key>keyboard</key>
+			<string>phone</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FakeCallHistory/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>duration</string>
+			<key>placeholder</key>
+			<string>Duration (in seconds, 0 for missed call)</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>isNumeric</key>
+			<true/>
+			<key>keyboard</key>
+			<string>numbers</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FakeCallHistory/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>hours</string>
+			<key>placeholder</key>
+			<string>Number of hours</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>isNumeric</key>
+			<true/>
+			<key>keyboard</key>
+			<string>numbers</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FakeCallHistory/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>minutes</string>
+			<key>placeholder</key>
+			<string>Number of minutes</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>isNumeric</key>
+			<true/>
+			<key>keyboard</key>
+			<string>numbers</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FakeCallHistory/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>pastSwitch</string>
+			<key>label</key>
+			<string>In the past?</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.fakeCall/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>outgoingSwitch</string>
+			<key>label</key>
+			<string>Outgoing?</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.fakeCall/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+      <string>PSGroupCell</string>
+      <key>footerText</key>
+      <string>How to use: &#xD;1. Enter a phone number. &#xD;2. Add the duration of the fake call (0 = missed). &#xD;3. Add the number of hours and minutes from now. &#xD;4. Set the time for the past or future. &#xD;5. Set the call for outgoing or incoming. &#xD;6. Toggle switch on and kill phone app.</string>
+    </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.neinzedd9.FakeCallHistory</string>
+			<key>key</key>
+			<string>disableAddCallSwitch</string>
+			<key>label</key>
+			<string>Add call</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FakeCallHistory/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+      <string>PSGroupCell</string>
+      <key>footerText</key>
+      <string>Phone contact icon by Arthur Shlain from the Noun Project</string>
+    </dict>
+		<dict>
+    	<key>big</key>
+    	<true/>
+    	<key>cellClass</key>
+    	<string>HBTwitterCell</string>
+    	<key>height</key>
+    	<integer>56</integer>
+    	<key>label</key>
+    	<string>NeinZedd9</string>
+    	<key>user</key>
+    	<string>neinzedd9</string>
+		</dict>
+		<dict>
+    <key>cellClass</key>
+    <string>HBLinkTableCell</string>
+    <key>icon</key>
+    <string></string>
+    <key>label</key>
+    <string>Donations are appreciated! &lt;3</string>
+    <key>url</key>
+    <string>https://www.paypal.me/NeinZedd</string>
+	</dict>
+	</array>
+	<key>title</key>
+	<string>Fake Call History</string>
+</dict>
+</plist>
