@@ -1,0 +1,9 @@
+Package: com.neinzedd9.fakecallhistory
+Name: Fake Call History
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader
+Version: 1.0.4
+Architecture: iphoneos-arm
+Description: Add fake calls to your call history!
+Maintainer: NeinZedd9
+Author: NeinZedd9
+Section: Tweaks
